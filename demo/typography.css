@@ -1,17 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@300;400&display=swap');
 
 :root {
-    --svetle-seda: rgb(211, 211, 211);
-    --seda: rgb(128, 128, 128);
-    --tmave-seda: rgb(70, 70, 70);
+    /*primarni barva*/
+    --pb:#003399;
+    --pb-svetla:#3366CC;
+    --pb-tmava:#00246d;
+    /*sekundarni barva*/
+    --sb:#F5A614;
+    --sb-svetla:#f5c114;
+    --sb-tmava:#d39118;
 
 
 }
 
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
 
 /*layout*/
 html{
-    font-size: 12px;
+    font-size: 16px;
 
 
 }
@@ -67,10 +83,21 @@ h5 {font-size: 2.5rem;}
 
 h6 {font-size: 2rem;}
 
+.heading__brighter{
+    color: var(--pb-svetla);
+
+
+}
+
 
 
 
 /*quotes*/
+blockquote{
+    border-left: solid var(--pb-svetla);
+    padding-left: 1em;
+
+}
 q::before, blockquote > p::before {
     content: '\201E';
 }
@@ -83,4 +110,60 @@ blockquote .author::before{
     content: '\2014';
 
 
+}
+
+
+
+/*code*/
+
+code{
+
+
+
+}
+
+
+.code--angle{
+    font-size: 20px;
+
+
+}
+
+.code--angle::before{
+    content:'\276E';
+
+}
+
+.code--angle::after{
+    content:'\276F';
+
+}
+/*lists*/
+ul{
+
+
+
+}
+li{
+
+
+
+}
+
+ol{
+
+
+
+}
+
+/*imigeez*/
+figure{
+    margin: 0;
+
+}
+figcaption{
+    color: var(--pb-svetla);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
 }

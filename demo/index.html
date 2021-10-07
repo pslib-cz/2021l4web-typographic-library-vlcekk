@@ -7,28 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typography example</title>
     <link href="./typography.css" rel="stylesheet">
+    <link href="./showcase.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1 class="hideh1">Headline</h1>
+        <h1 class="hideh1">heading</h1>
 
 
     </header>
 
     <main>
         <section>
-            <h1>Headline</h1>
-            <h2>Headline</h2>
-            <h3>Headline</h3>
-            <h4>Headline</h4>   
-            <h5>Headline</h5>
-            <h6>Headline</h6>
+            <h1><span class="heading__brighter">h1</span> Heading</h1>
+            <h2><span class="heading__brighter">h2</span> Heading</h2>
+            <h3><span class="heading__brighter">h3</span> Heading</h3>
+            <h4><span class="heading__brighter">h4</span> Heading</h4>
+            <h5><span class="heading__brighter">h5</span> Heading</h5>
+            <h6><span class="heading__brighter">h6</span> Heading</h6>
         </section>
         <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates odio. Corporis inventore fugiat
-            similique, sit ad quis.
-            Nulla quibusdam sunt corporis harum impedit eius? Autem placeat eligendi fugiat eaque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates odio. Corporis inventore
+                fugiat
+                similique, sit ad quis.
+                Nulla quibusdam sunt corporis harum impedit eius? Autem placeat eligendi fugiat eaque.</p>
         </section>
 
         <section>
@@ -37,13 +39,57 @@
                 <p>Do not compare yourself to others. If you do so, you are insulting yourself.</p>
                 <span class="author">Gándhí</span>
             </blockquote>
-        </section>    
+        </section>
 
         <section>
             <h2>Code</h2>
+            <span class="code--angle">section</span>
+
+        </section>
+
+
+        <section>
+            <h2>Lists</h2>
+            <h3>Dots</h3>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>
+                    <ul>
+                        <li> item</li>
+                        <li>item</li>
+                    </ul>
+
+                </li>
+                <li>item</li>
+
+            </ul>
+            <h3>Numbers</h3>
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>
+                    <ul>
+                        <li> item</li>
+                        <li>item</li>
+                    </ul>
+
+                </li>
+                <li>item</li>
+
+            </ol>
 
 
         </section>
+
+        <section>
+            <h2>Images</h2>
+            <figure>
+                <img src="./images/tmio.jpg">
+                <figcaption><span class="figcaption--cislo"></span>Fotka s budoucím premiérem</figcaption>
+            </figure>
+        </section>
+
     </main>
 
     <footer>
