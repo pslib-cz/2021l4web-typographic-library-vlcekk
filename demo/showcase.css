@@ -1,9 +1,21 @@
+main{
+max-width: 800px;
+margin: 0 auto;
+}
+
 body{
 color: var(--pb);
 
 }
 
 img{
-    width: 500px;
+    width: 400px;
+
+}
+
+.img--flex{
+display: flex;
+flex-direction: row;
+
 
 }

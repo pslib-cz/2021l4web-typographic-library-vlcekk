@@ -40,10 +40,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-header {}
 
-
-footer {}
 
 
 /*text*/
@@ -90,7 +87,15 @@ h6 {font-size: 2rem;}
 }
 
 
+a{
+    color: var(--sb);
 
+}
+
+mark{
+    background-color: var(--sb-svetla);
+
+}
 
 /*quotes*/
 blockquote{
@@ -115,10 +120,15 @@ blockquote .author::before{
 
 
 /*code*/
+.div--code{
+    background-color: var(--pb-svetla);
+    max-width: 600px;
 
+}
 code{
-
-
+    background-color: var(--pb-svetla);
+    color: black;
+    white-space: pre;
 
 }
 
@@ -139,14 +149,20 @@ code{
 
 }
 /*lists*/
-ul{
+ul::marker {
 
 
 
 }
-li{
+
+ul> li::marker{
+content: "⯀";
 
 
+
+}
+ul > ul > li::marker{
+    content: "⬝";
 
 }
 
