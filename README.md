@@ -14,5 +14,9 @@ Download typography.css and link it to your HTML:
 ## .hideh1 
 .hideh1 is a class that makes your h1 hidden.
 
-
-will finish later
+## Custom tags
+- blockquote,q
+- table
+- ul,ol,li
+- button
+- figcaption
